@@ -1,0 +1,28 @@
+SELECT c.year,c.city,c.country,c.avg_temp,g.avg_temp as global_temp from city_data c
+join global_data g
+On c.year = g.year
+ WHERE country = 'Switzerland' AND city ='Bern';
+
+
+SELECT c.year,c.city,c.country,c.avg_temp,g.avg_temp as global_temp from city_data c
+join global_data g
+On c.year = g.year
+ WHERE country = 'India' AND city ='Agra';
+
+
+SELECT c.year,c.city,c.country,c.avg_temp,g.avg_temp as global_temp from city_data c
+join global_data g
+On c.year = g.year
+ WHERE country = 'India' AND city ='Bangalore';
+
+SELECT c.year,c.city,c.country,c.avg_temp,g.avg_temp as global_temp from city_data c
+join global_data g
+On c.year = g.year
+ WHERE country = 'United States' AND city ='New York';
+
+SELECT c.year,c.city,c.country,c.avg_temp,g.avg_temp as global_temp from city_data c
+join global_data g
+On c.year = g.year
+ WHERE country = 'India' AND city ='Hyderabad';
+
+
